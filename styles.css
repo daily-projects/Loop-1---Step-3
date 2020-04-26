@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #239F85;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+  height: 50vh;
+  width: 700px;
+  background: #fff;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 70px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.header .title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.header .account {
+  border: 1px solid #E3E3E3;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.sub-header {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #ABB5C1;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.item .item-title {
+  color: #5C5C5C;
+}
+
+.item .item-amount, .total {
+  font-weight: 700;
+}
+
+.bike {
+  width: 100%;
+  position: absolute;
+  top: 218px;
+  left: 0px;
+}
