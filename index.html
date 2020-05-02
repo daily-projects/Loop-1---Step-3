@@ -13,27 +13,34 @@
 <body>
 
 
-  <div class="container">
+  <div class="container" id="container">
     <div class="header">
-      <p class="title">SimpleWheels</p>
-      <img src="./img/account.svg" alt="account" class="account">
+      <p class="title" id="title">SimpleWheels</p>
+      <img src="./img/account.svg" alt="account" class="account" id="account">
     </div>
-    <p class="sub-header">Thanks for your order #2345678, your package will be on its way shortly.</p>
-    <div class="item">
-      <p class="item-title">Chapelli Vintage Single Speed</p>
-      <p class="item-amount">$317</p>
+    <p class="sub-header" id="sub-header">Thanks for your order #2345678, your package will be on its way shortly.</p>
+    <div id="items">
+      <div class="item">
+        <p class="item-title">Chapelli Vintage Single Speed</p>
+        <p class="item-amount">$317</p>
+      </div>
+      <div class="item">
+        <p class="item-title">Castelli Arenbeng Gel Gloves</p>
+        <p class="item-amount">$39</p>
+      </div>
+      <div class="item">
+        <p class="item-title total">TOTAL</p>
+        <p class="item-amount">$356</p>
+      </div>
     </div>
-    <div class="item">
-      <p class="item-title">Castelli Arenbeng Gel Gloves</p>
-      <p class="item-amount">$39</p>
-    </div>
-    <div class="item">
-      <p class="item-title total">TOTAL</p>
-      <p class="item-amount">$356</p>
-    </div>
-    <img src="./img/bicycle.png" alt="bike" class="bike">
+    <img src="./img/bicycle.png" alt="bike" class="bike" id="bike">
 
   </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  <script src="app.js"></script>
 
 </body>
 
