@@ -17,4 +17,3 @@ duke.from(container, {ease:"linear"})
     .from(bike, {y:50})
 
 console.log(items);
-GSDevTools.create();
